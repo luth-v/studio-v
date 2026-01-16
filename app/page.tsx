@@ -12,9 +12,9 @@ export default function Home() {
       <header className="flex items-center justify-between px-6 py-4 border-b border-border">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-foreground flex items-center justify-center">
-            <span className="text-background text-sm font-bold">N</span>
+            <span className="text-background text-sm font-bold">V</span>
           </div>
-          <h1 className="text-lg font-semibold">Nano Banana Pro</h1>
+          <h1 className="text-lg font-semibold">Studio-V</h1>
         </div>
         <p className="text-sm text-muted hidden sm:block">
           Transform product photos into AI prompts

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nano Banana Pro | AI Prompt Generator",
+  title: "Studio-V | AI Prompt Generator",
   description:
     "Transform raw product photos into sophisticated JSON prompts for AI image generation",
 };

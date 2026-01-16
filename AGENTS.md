@@ -14,6 +14,24 @@ bd close <id>         # Complete work
 bd sync               # Sync with git
 ```
 
+## Task Completion Workflow
+
+**NEVER close a task until the user explicitly approves the work.**
+
+When the user approves:
+
+1. Close the task: `bd close <id>`
+2. Commit and push immediately:
+   ```bash
+   git add -A
+   git commit -m "feat: <brief description> (closes <id>)"
+   git push
+   ```
+
+**The task is NOT done until the push succeeds.**
+
+---
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.

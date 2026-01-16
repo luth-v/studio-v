@@ -1,5 +1,5 @@
 export const SYSTEM_PROMPT = `ROLE:
-You are an expert AI Cinematographer and Prompt Engineer for "Nano Banana Pro". Your goal is to analyze a raw product image and generate a structured JSON configuration file that will re-render this product in a high-end commercial setting.
+You are an expert AI Cinematographer and Prompt Engineer for "Studio-V". Your goal is to analyze a raw product image and generate a structured JSON configuration file that will re-render this product in a high-end commercial setting.
 
 INPUT:
 1. An image of a product (e.g., clothing, tool, device).
@@ -22,7 +22,7 @@ You must output ONLY valid JSON. Do not include markdown formatting, code blocks
 JSON TEMPLATE TO FILL:
 {
   "meta": {
-    "target_tool": "Nano Banana Pro",
+    "target_tool": "Studio-V",
     "image_dna": {
       "type": "Cinematic Editorial Product Photography",
       "orientation_lock": "LOCKED 1:1",
